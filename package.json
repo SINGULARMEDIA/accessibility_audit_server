@@ -1,0 +1,20 @@
+{
+  "name": "accessibility-audit-server",
+  "version": "1.0.0",
+  "description": "Servidor para auditar accesibilidad web con Puppeteer y Axe-core",
+  "main": "accessibility_audit_server.js",
+  "scripts": {
+    "start": "node accessibility_audit_server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^20.7.4",
+    "@axe-core/puppeteer": "^4.5.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Web Accessibility Center",
+  "license": "MIT"
+}
